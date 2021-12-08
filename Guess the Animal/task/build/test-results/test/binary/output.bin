@@ -1,0 +1,1203 @@
+[1;31m
+Start test 1[0m
+Scenario 'animals' is started.
+
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+Good evening
+
+Enter an animal:
+> CAT
+Is it a cat?
+Good evening
+
+Enter an animal:
+> Cat
+Is it a cat?
+Good evening
+
+Enter an animal:
+> a cat
+Is it a cat?
+Good evening
+
+Enter an animal:
+> A cat
+Is it a cat?
+Good evening
+
+Enter an animal:
+
+> the cat
+Is it a cat?
+Good evening
+
+Enter an animal:
+> ape
+Is it an ape?
+Good evening
+
+Enter an animal:
+	> an ape
+Is it an ape?
+Good evening
+
+Enter an animal:
+
+> the ape
+Is it an ape?
+Good evening
+
+Enter an animal:
+> a unicorn
+Is it a unicorn?
+Good evening
+
+Enter an animal:
+> a xantic sargo
+Is it a xantic sargo?
+Good evening
+
+Enter an animal:
+> xantic sargo
+Is it a xantic sargo?
+Good evening
+
+Enter an animal:
+
+> an xeme
+Is it an xeme?
+Good evening
+
+Enter an animal:
+	> RacOON
+Is it a racoon?
+Good evening
+
+Enter an animal:
+> dog
+Is it a dog?
+Good evening
+
+Enter an animal:
+> a dog
+Is it a dog?
+Good evening
+
+Enter an animal:
+
+> the dog
+Is it a dog?
+Good evening
+
+Enter an animal:
+> owl
+Is it an owl?
+Good evening
+
+Enter an animal:
+	> an owl
+Is it an owl?
+Good evening
+
+Enter an animal:
+
+> the owl
+Is it an owl?
+[1;31m
+Start test 2[0m
+(Scenario 'positive-answers' is started.
+
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> y
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Y
+You answered: Yes
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> y.
+You answered: Yes
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Y.
+You answered: Yes
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> y!
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Y!
+You answered: Yes
+
+Bye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+	>    Yes
+You answered: Yes
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+	> Yes   
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yes
+You answered: Yes
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Yes
+You answered: Yes
+
+Bye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> YES
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yes.
+You answered: Yes
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Yes!
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> YES!
+You answered: Yes
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yES!
+You answered: Yes
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> YeS
+You answered: Yes
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Yeah
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yeah
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Yeah!
+You answered: Yes
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> YeAh.
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> YEAH
+You answered: Yes
+
+Bye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yep
+You answered: Yes
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yEp
+You answered: Yes
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Yep!
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> YEP.
+You answered: Yes
+
+Bye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> sure
+You answered: Yes
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Sure!
+You answered: Yes
+
+Bye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> SURE!
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> surE.
+You answered: Yes
+
+Bye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> right
+You answered: Yes
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+	> Right.
+You answered: Yes
+
+Bye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+	> Right!
+You answered: Yes
+
+Bye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> affirmative
+You answered: Yes
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Affirmative!
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+
+> correct
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> correct.
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+	> indeed
+You answered: Yes
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+
+> you bet
+You answered: Yes
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+
+> exactly
+You answered: Yes
+
+Goodbye
+[1;31m
+Start test 3[0m
+(Scenario 'negative-answers' is started.
+
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> n
+You answered: No
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> N
+You answered: No
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> n.
+You answered: No
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> N.
+You answered: No
+
+Bye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> n!
+You answered: No
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> N!
+You answered: No
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+>    No
+You answered: No
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> No   
+You answered: No
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> no
+You answered: No
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> nO
+You answered: No
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> NO
+You answered: No
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> No
+You answered: No
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> no.
+You answered: No
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> no!
+You answered: No
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> No!
+You answered: No
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> NO!
+You answered: No
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+	> no way
+You answered: No
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+
+> no way!
+You answered: No
+
+Bye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+
+> No Way!
+You answered: No
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+
+> NO WAY!
+You answered: No
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+
+> no waY.
+You answered: No
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> nah
+You answered: No
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Nah.
+You answered: No
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> NAH!
+You answered: No
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> naH
+You answered: No
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> nope
+You answered: No
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> NoPe!
+You answered: No
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> NOPE.
+You answered: No
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> negative
+You answered: No
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Negative.
+You answered: No
+
+Later
+[1;31m
+Start test 4[0m
+'Scenario 'unclear-answers' is started.
+
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> y..
+9Oh, it's too complicated for me: just tell me yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Y!.
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> ye
+-I'm not sure I caught you: was it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> jes
+'Could you please simply say yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Jes
+9Oh, it's too complicated for me: just tell me yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+	> yes...
+2Funny, I still don't understand, is it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> да
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+	> Так
+9Oh, it's too complicated for me: just tell me yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yes, yes
+'Could you please simply say yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Yea
+9Oh, it's too complicated for me: just tell me yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Ja
+2Funny, I still don't understand, is it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+
+> Jawohl!
+-I'm not sure I caught you: was it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> ja natürlich!
+9Oh, it's too complicated for me: just tell me yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> so genau
+9Oh, it's too complicated for me: just tell me yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> 1
+-I'm not sure I caught you: was it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> +
+'Could you please simply say yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yepi
+'Could you please simply say yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Yep!!
+2Funny, I still don't understand, is it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Yes, sure!
+2Funny, I still don't understand, is it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> Ok
+'Could you please simply say yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+	> Rights
+9Oh, it's too complicated for me: just tell me yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> affErmative
+2Funny, I still don't understand, is it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> n..
+-I'm not sure I caught you: was it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> N!!
+2Funny, I still don't understand, is it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> nea
+-I'm not sure I caught you: was it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> nop
+-I'm not sure I caught you: was it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> noppi
+'Could you please simply say yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> no wa
+-I'm not sure I caught you: was it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> no way!!!
+-I'm not sure I caught you: was it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> na
+'Could you please simply say yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> nahi
+'Could you please simply say yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> nega
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> negat
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+	> negati
+2Funny, I still don't understand, is it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+
+> negativ
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> i don't think..
+9Oh, it's too complicated for me: just tell me yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+
+> i don't
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> i
+'Could you please simply say yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> I no
+-I'm not sure I caught you: was it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> i don't think so...
+'Could you please simply say yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> null
+9Oh, it's too complicated for me: just tell me yes or no.
+[1;31m
+Start test 5[0m
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yes
+You answered: Yes
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yes
+You answered: Yes
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yes
+You answered: Yes
+
+Later
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yes
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yes
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yes
+You answered: Yes
+
+Goodbye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yes
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yes
+You answered: Yes
+
+See you next time
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yes
+You answered: Yes
+
+Bye
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> yes
+You answered: Yes
+
+Goodbye
+[1;31m
+Start test 6[0m
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> #
+9Oh, it's too complicated for me: just tell me yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> #
+'Could you please simply say yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> #
+2Funny, I still don't understand, is it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> #
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> #
+-I'm not sure I caught you: was it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> #
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> #
+2Funny, I still don't understand, is it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> #
+-I'm not sure I caught you: was it yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> #
+'Could you please simply say yes or no?
+Good evening
+
+Enter an animal:
+> cat
+Is it a cat?
+> #
+0Oh, no, don't try to confuse me: say yes or no.
