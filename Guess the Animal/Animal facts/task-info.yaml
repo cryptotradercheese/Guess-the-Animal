@@ -377,6 +377,21 @@ files:
     - - "may be it barks?"
     - - "I do not what to say..."
   learner_created: false
+- name: src/animals/Analyzer.java
+  visible: true
+  learner_created: true
+- name: src/animals/Formatter.java
+  visible: true
+  learner_created: true
+- name: src/animals/RandomAnswers.java
+  visible: true
+  learner_created: true
+- name: src/animals/ClientCode.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/132/stages/704/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 09 Dec 2021 15:32:33 UTC
 record: -1

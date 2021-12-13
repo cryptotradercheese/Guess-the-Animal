@@ -1,1195 +1,461 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GuessAnimalTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-08T12:04:59" hostname="user-computer" time="0.636">
+<testsuite name="GuessAnimalTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-09T15:32:32" hostname="user-computer" time="0.391">
   <properties/>
-  <testcase name="start" classname="GuessAnimalTest" time="0.636"/>
+  <testcase name="start" classname="GuessAnimalTest" time="0.391"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
-Scenario 'animals' is started.
+Scenario 'incorrect-statement' is started.
 
-Good evening
+Hello!
 
-Enter an animal:
+Enter the first animal:
 > cat
-Is it a cat?
-Good evening
-
-Enter an animal:
-> CAT
-Is it a cat?
-Good evening
-
-Enter an animal:
-> Cat
-Is it a cat?
-Good evening
-
-Enter an animal:
-> a cat
-Is it a cat?
-Good evening
-
-Enter an animal:
-> A cat
-Is it a cat?
-Good evening
-
-Enter an animal:
-> the cat
-Is it a cat?
-Good evening
-
-Enter an animal:
-> ape
-Is it an ape?
-Good evening
-
-Enter an animal:
-> an ape
-Is it an ape?
-Good evening
-
-Enter an animal:
-> the ape
-Is it an ape?
-Good evening
-
-Enter an animal:
-> a unicorn
-Is it a unicorn?
-Good evening
-
-Enter an animal:
-> a xantic sargo
-Is it a xantic sargo?
-Good evening
-
-Enter an animal:
-> xantic sargo
-Is it a xantic sargo?
-Good evening
-
-Enter an animal:
-> an xeme
-Is it an xeme?
-Good evening
-
-Enter an animal:
-> RacOON
-Is it a racoon?
-Good evening
-
-Enter an animal:
+Enter the second animal:
 > dog
-Is it a dog?
-Good evening
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
 
-Enter an animal:
-> a dog
-Is it a dog?
-Good evening
+> The dog barks
+The examples of a statement:
+ - It can fly
+ - It has horn
+ - It is a mammal
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
 
-Enter an animal:
-> the dog
-Is it a dog?
-Good evening
+Hello!
 
-Enter an animal:
-> owl
-Is it an owl?
-Good evening
+Enter the first animal:
+> cat
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
 
-Enter an animal:
-> an owl
-Is it an owl?
-Good evening
+> The cat meows
+The examples of a statement:
+ - It can fly
+ - It has horn
+ - It is a mammal
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
 
-Enter an animal:
-> the owl
-Is it an owl?
+Hello!
+
+Enter the first animal:
+> cat
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
+
+> I don't know...
+The examples of a statement:
+ - It can fly
+ - It has horn
+ - It is a mammal
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
+
+Hello!
+
+Enter the first animal:
+> cat
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
+
+> Who knows?
+The examples of a statement:
+ - It can fly
+ - It has horn
+ - It is a mammal
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
+
+Hello!
+
+Enter the first animal:
+> cat
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
+
+> It flies
+The examples of a statement:
+ - It can fly
+ - It has horn
+ - It is a mammal
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
+
+Hello!
+
+Enter the first animal:
+> cat
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
+
+> It barks
+The examples of a statement:
+ - It can fly
+ - It has horn
+ - It is a mammal
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
+
+Hello!
+
+Enter the first animal:
+> cat
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
+
+> Can it fly?
+The examples of a statement:
+ - It can fly
+ - It has horn
+ - It is a mammal
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
+
+Hello!
+
+Enter the first animal:
+> cat
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
+
+> It fly
+The examples of a statement:
+ - It can fly
+ - It has horn
+ - It is a mammal
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
+
+Hello!
+
+Enter the first animal:
+> cat
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
+
+> may be it barks?
+The examples of a statement:
+ - It can fly
+ - It has horn
+ - It is a mammal
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
+
+Hello!
+
+Enter the first animal:
+> cat
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
+
+> I do not what to say...
+The examples of a statement:
+ - It can fly
+ - It has horn
+ - It is a mammal
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
+
 ?[1;31m
 Start test 2?[0m
-Scenario 'positive-answers' is started.
+Scenario 'correct-statement' is started.
 
-Good evening
+Hello!
 
-Enter an animal:
+Enter the first animal:
 > cat
-Is it a cat?
-> y
-You answered: Yes
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
 
-See you next time
-Good evening
+> It is a mammal
+Is it correct for a dog?
+Hello!
 
-Enter an animal:
+Enter the first animal:
 > cat
-Is it a cat?
-> Y
-You answered: Yes
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
 
-Goodbye
-Good evening
+> It can barks
+Is it correct for a dog?
+Hello!
 
-Enter an animal:
+Enter the first animal:
 > cat
-Is it a cat?
-> y.
-You answered: Yes
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
 
-Later
-Good evening
+> It has a tail
+Is it correct for a dog?
+Hello!
 
-Enter an animal:
+Enter the first animal:
 > cat
-Is it a cat?
-> Y.
-You answered: Yes
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
 
-Goodbye
-Good evening
+> IT IS A SHY ANIMAL
+Is it correct for a dog?
+Hello!
 
-Enter an animal:
+Enter the first animal:
 > cat
-Is it a cat?
-> y!
-You answered: Yes
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
 
-See you next time
-Good evening
+> it CAN swim and fly
+Is it correct for a dog?
+Hello!
 
-Enter an animal:
+Enter the first animal:
 > cat
-Is it a cat?
-> Y!
-You answered: Yes
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
 
-Bye
-Good evening
+> it has long tooth.
+Is it correct for a dog?
+Hello!
 
-Enter an animal:
+Enter the first animal:
 > cat
-Is it a cat?
->    Yes
-You answered: Yes
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
 
-Goodbye
-Good evening
+> iT has five legs
+Is it correct for a dog?
+Hello!
 
-Enter an animal:
+Enter the first animal:
 > cat
-Is it a cat?
-> Yes   
-You answered: Yes
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
 
-See you next time
-Good evening
+> It can catch a mouse.
+Is it correct for a dog?
+Hello!
 
-Enter an animal:
+Enter the first animal:
 > cat
-Is it a cat?
-> yes
-You answered: Yes
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
 
-Later
-Good evening
+> it is a danger predator.
+Is it correct for a dog?
+Hello!
 
-Enter an animal:
+Enter the first animal:
 > cat
-Is it a cat?
-> Yes
-You answered: Yes
+Enter the second animal:
+> dog
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
 
-Bye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> YES
-You answered: Yes
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> yes.
-You answered: Yes
-
-Goodbye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Yes!
-You answered: Yes
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> YES!
-You answered: Yes
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> yES!
-You answered: Yes
-
-Goodbye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> YeS
-You answered: Yes
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Yeah
-You answered: Yes
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> yeah
-You answered: Yes
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Yeah!
-You answered: Yes
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> YeAh.
-You answered: Yes
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> YEAH
-You answered: Yes
-
-Bye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> yep
-You answered: Yes
-
-Goodbye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> yEp
-You answered: Yes
-
-Goodbye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Yep!
-You answered: Yes
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> YEP.
-You answered: Yes
-
-Bye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> sure
-You answered: Yes
-
-Goodbye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Sure!
-You answered: Yes
-
-Bye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> SURE!
-You answered: Yes
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> surE.
-You answered: Yes
-
-Bye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> right
-You answered: Yes
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Right.
-You answered: Yes
-
-Bye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Right!
-You answered: Yes
-
-Bye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> affirmative
-You answered: Yes
-
-Goodbye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Affirmative!
-You answered: Yes
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> correct
-You answered: Yes
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> correct.
-You answered: Yes
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> indeed
-You answered: Yes
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> you bet
-You answered: Yes
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> exactly
-You answered: Yes
-
-Goodbye
+> It is living in the forest.
+Is it correct for a dog?
 ?[1;31m
 Start test 3?[0m
-Scenario 'negative-answers' is started.
+Scenario 'complete-scenario' is started.
 
-Good evening
+Hello!
 
-Enter an animal:
+Enter the first animal:
 > cat
-Is it a cat?
-> n
-You answered: No
+Enter the second animal:
+> DOG
+Specify a fact that distinguishes a cat from a dog.
+The sentence should be of the format: 'It can/has/is ...'.
 
-Goodbye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> N
-You answered: No
-
-Goodbye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> n.
-You answered: No
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> N.
-You answered: No
-
-Bye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> n!
-You answered: No
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> N!
-You answered: No
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
->    No
-You answered: No
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> No   
-You answered: No
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
+> It can climb trees
+Is it correct for a dog?
+> ha
+Could you please simply say yes or no?
 > no
-You answered: No
+I have learned the following facts about animals:
+- The cat can climb trees.
+- The dog can't climb trees.
+I can distinguish these animals by asking the question:
+- Can it climb trees?
 
 Goodbye
-Good evening
+Hello!
 
-Enter an animal:
-> cat
-Is it a cat?
-> nO
-You answered: No
+Enter the first animal:
+> hare
+Enter the second animal:
+> wolf
+Specify a fact that distinguishes a hare from a wolf.
+The sentence should be of the format: 'It can/has/is ...'.
 
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> NO
-You answered: No
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> No
-You answered: No
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> no.
-You answered: No
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> no!
-You answered: No
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> No!
-You answered: No
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> NO!
-You answered: No
+> It is a shy animal
+Is it correct for a wolf?
+> nej
+Oh, no, don't try to confuse me: say yes or no.
+> no
+I have learned the following facts about animals:
+- The hare is a shy animal.
+- The wolf isn't a shy animal.
+I can distinguish these animals by asking the question:
+- Is it a shy animal?
 
 Goodbye
-Good evening
+Hello!
 
-Enter an animal:
-> cat
-Is it a cat?
-> no way
-You answered: No
+Enter the first animal:
+> a lynx
+Enter the second animal:
+> an unicorN
+Specify a fact that distinguishes a lynx from an unicorn.
+The sentence should be of the format: 'It can/has/is ...'.
 
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> no way!
-You answered: No
-
-Bye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> No Way!
-You answered: No
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> NO WAY!
-You answered: No
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> no waY.
-You answered: No
-
-Goodbye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> nah
-You answered: No
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Nah.
-You answered: No
-
-Goodbye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> NAH!
-You answered: No
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> naH
-You answered: No
-
-Goodbye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> nope
-You answered: No
-
-Goodbye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> NoPe!
-You answered: No
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> NOPE.
-You answered: No
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> negative
-You answered: No
-
-Goodbye
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Negative.
-You answered: No
+> It is a fabulous animal?
+Is it correct for an unicorn?
+> of c
+Oh, no, don't try to confuse me: say yes or no.
+> yes
+I have learned the following facts about animals:
+- The lynx isn't a fabulous animal.
+- The unicorn is a fabulous animal.
+I can distinguish these animals by asking the question:
+- Is it a fabulous animal?
 
 Later
 ?[1;31m
 Start test 4?[0m
-Scenario 'unclear-answers' is started.
+Scenario 'facts-and-question' is started.
 
-Good evening
+Hello!
 
-Enter an animal:
+Enter the first animal:
 > cat
-Is it a cat?
-> y..
-Oh, it's too complicated for me: just tell me yes or no.
-Good evening
+Enter the second animal:
+> shark
+Specify a fact that distinguishes a cat from a shark.
+The sentence should be of the format: 'It can/has/is ...'.
 
-Enter an animal:
-> cat
-Is it a cat?
-> Y!.
-Oh, no, don't try to confuse me: say yes or no.
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> ye
-I'm not sure I caught you: was it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> jes
-Could you please simply say yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Jes
-Oh, it's too complicated for me: just tell me yes or no.
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> yes...
-Funny, I still don't understand, is it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> да
-Oh, no, don't try to confuse me: say yes or no.
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Так
-Oh, it's too complicated for me: just tell me yes or no.
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> yes, yes
-Could you please simply say yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Yea
-Oh, it's too complicated for me: just tell me yes or no.
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Ja
-Funny, I still don't understand, is it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Jawohl!
-I'm not sure I caught you: was it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> ja natürlich!
-Oh, it's too complicated for me: just tell me yes or no.
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> so genau
-Oh, it's too complicated for me: just tell me yes or no.
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> 1
-I'm not sure I caught you: was it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> +
-Could you please simply say yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> yepi
-Could you please simply say yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Yep!!
-Funny, I still don't understand, is it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Yes, sure!
-Funny, I still don't understand, is it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Ok
-Could you please simply say yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> Rights
-Oh, it's too complicated for me: just tell me yes or no.
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> affErmative
-Funny, I still don't understand, is it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> n..
-I'm not sure I caught you: was it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> N!!
-Funny, I still don't understand, is it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> nea
-I'm not sure I caught you: was it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> nop
-I'm not sure I caught you: was it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> noppi
-Could you please simply say yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> no wa
-I'm not sure I caught you: was it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> no way!!!
-I'm not sure I caught you: was it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> na
-Could you please simply say yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> nahi
-Could you please simply say yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> nega
-Oh, no, don't try to confuse me: say yes or no.
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> negat
-Oh, no, don't try to confuse me: say yes or no.
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> negati
-Funny, I still don't understand, is it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> negativ
-Oh, no, don't try to confuse me: say yes or no.
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> i don't think..
-Oh, it's too complicated for me: just tell me yes or no.
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> i don't
-Oh, no, don't try to confuse me: say yes or no.
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> i
-Could you please simply say yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> I no
-I'm not sure I caught you: was it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> i don't think so...
-Could you please simply say yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> null
-Oh, it's too complicated for me: just tell me yes or no.
-?[1;31m
-Start test 5?[0m
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> yes
-You answered: Yes
+> it is a mammal
+Is it correct for a shark?
+> no
+I have learned the following facts about animals:
+- The cat is a mammal.
+- The shark isn't a mammal.
+I can distinguish these animals by asking the question:
+- Is it a mammal?
 
 Later
-Good evening
+Hello!
 
-Enter an animal:
-> cat
-Is it a cat?
+Enter the first animal:
+> wolf
+Enter the second animal:
+> hare
+Specify a fact that distinguishes a wolf from a hare.
+The sentence should be of the format: 'It can/has/is ...'.
+
+> it is a shy animal
+Is it correct for a hare?
 > yes
-You answered: Yes
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> yes
-You answered: Yes
-
-Later
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> yes
-You answered: Yes
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> yes
-You answered: Yes
-
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> yes
-You answered: Yes
+I have learned the following facts about animals:
+- The wolf isn't a shy animal.
+- The hare is a shy animal.
+I can distinguish these animals by asking the question:
+- Is it a shy animal?
 
 Goodbye
-Good evening
+Hello!
 
-Enter an animal:
-> cat
-Is it a cat?
+Enter the first animal:
+> wolf
+Enter the second animal:
+> fox
+Specify a fact that distinguishes a wolf from a fox.
+The sentence should be of the format: 'It can/has/is ...'.
+
+> it has a long bushy tail
+Is it correct for a fox?
 > yes
-You answered: Yes
+I have learned the following facts about animals:
+- The wolf doesn't have a long bushy tail.
+- The fox has a long bushy tail.
+I can distinguish these animals by asking the question:
+- Does it have a long bushy tail?
 
 See you next time
-Good evening
+Hello!
 
-Enter an animal:
+Enter the first animal:
+> dog
+Enter the second animal:
 > cat
-Is it a cat?
-> yes
-You answered: Yes
+Specify a fact that distinguishes a dog from a cat.
+The sentence should be of the format: 'It can/has/is ...'.
 
-See you next time
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
+> it can climb trees
+Is it correct for a cat?
 > yes
-You answered: Yes
+I have learned the following facts about animals:
+- The dog can't climb trees.
+- The cat can climb trees.
+I can distinguish these animals by asking the question:
+- Can it climb trees?
 
 Bye
-Good evening
+Hello!
 
-Enter an animal:
-> cat
-Is it a cat?
+Enter the first animal:
+> dog
+Enter the second animal:
+> fox
+Specify a fact that distinguishes a dog from a fox.
+The sentence should be of the format: 'It can/has/is ...'.
+
+> it is living in the forest
+Is it correct for a fox?
 > yes
-You answered: Yes
+I have learned the following facts about animals:
+- The dog isn't living in the forest.
+- The fox is living in the forest.
+I can distinguish these animals by asking the question:
+- Is it living in the forest?
 
-Goodbye
-?[1;31m
-Start test 6?[0m
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> #
-Oh, it's too complicated for me: just tell me yes or no.
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> #
-Could you please simply say yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> #
-Funny, I still don't understand, is it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> #
-Oh, no, don't try to confuse me: say yes or no.
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> #
-I'm not sure I caught you: was it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> #
-Oh, no, don't try to confuse me: say yes or no.
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> #
-Funny, I still don't understand, is it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> #
-I'm not sure I caught you: was it yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> #
-Could you please simply say yes or no?
-Good evening
-
-Enter an animal:
-> cat
-Is it a cat?
-> #
-Oh, no, don't try to confuse me: say yes or no.
+Bye
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
