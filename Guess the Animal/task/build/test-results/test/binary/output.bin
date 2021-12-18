@@ -1,454 +1,2167 @@
 [1;31m
 Start test 1[0m
-+Scenario 'incorrect-statement' is started.
+*Scenario 'the-first-question' is started.
 
-Hello!
+Good evening
 
-Enter the first animal:
+I want to learn about animals.
+Which animal do you like most?
 > cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+Good evening
 
-> The dog barks
-The examples of a statement:
- - It can fly
- - It has horn
- - It is a mammal
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+I want to learn about animals.
+Which animal do you like most?
+> DOG
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a dog?
+Good evening
 
-Hello!
+I want to learn about animals.
+Which animal do you like most?
+> hare
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a hare?
+Good evening
 
-Enter the first animal:
-> cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+I want to learn about animals.
+Which animal do you like most?
+> WOLF
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a wolf?
+Good evening
 
-> The cat meows
-The examples of a statement:
- - It can fly
- - It has horn
- - It is a mammal
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+I want to learn about animals.
+Which animal do you like most?
+
+> uniCorn
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it an unicorn?
+Good evening
 
-Hello!
+I want to learn about animals.
+Which animal do you like most?
+
+> uniCorn
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it an unicorn?
+Good evening
 
-Enter the first animal:
-> cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+I want to learn about animals.
+Which animal do you like most?
+> A Unicorn
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a unicorn?
+Good evening
 
-> I don't know...
-The examples of a statement:
- - It can fly
- - It has horn
- - It is a mammal
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+I want to learn about animals.
+Which animal do you like most?
+> APE
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it an ape?
+Good evening
 
-Hello!
+I want to learn about animals.
+Which animal do you like most?
+
+> uniCorn
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it an unicorn?
+Good evening
 
-Enter the first animal:
-> cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+I want to learn about animals.
+Which animal do you like most?
+
+> uniCorn
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it an unicorn?
+Good evening
 
-> Who knows?
-The examples of a statement:
- - It can fly
- - It has horn
- - It is a mammal
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
-
-Hello!
-
-Enter the first animal:
-> cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
-
-> It flies
-The examples of a statement:
- - It can fly
- - It has horn
- - It is a mammal
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
-
-Hello!
-
-Enter the first animal:
-> cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
-
-> It barks
-The examples of a statement:
- - It can fly
- - It has horn
- - It is a mammal
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
-
-Hello!
-
-Enter the first animal:
-> cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
-
-> Can it fly?
-The examples of a statement:
- - It can fly
- - It has horn
- - It is a mammal
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
-
-Hello!
-
-Enter the first animal:
-> cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
-
-	> It fly
-The examples of a statement:
- - It can fly
- - It has horn
- - It is a mammal
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
-
-Hello!
-
-Enter the first animal:
-> cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
-
-> may be it barks?
-The examples of a statement:
- - It can fly
- - It has horn
- - It is a mammal
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
-
-Hello!
-
-Enter the first animal:
-> cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
-
-> I do not what to say...
-The examples of a statement:
- - It can fly
- - It has horn
- - It is a mammal
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
-
+I want to learn about animals.
+Which animal do you like most?
+> linX
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a linx?
 [1;31m
 Start test 2[0m
-)Scenario 'correct-statement' is started.
+(Scenario 'positive-answers' is started.
 
-Hello!
+Good evening
 
-Enter the first animal:
+I want to learn about animals.
+Which animal do you like most?
 > cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> y
 
-> It is a mammal
-Is it correct for a dog?
-Hello!
+Would you like to play again?
+Good evening
 
-Enter the first animal:
+I want to learn about animals.
+Which animal do you like most?
 > cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Y
 
-> It can barks
-Is it correct for a dog?
-Hello!
+Would you like to play again?
+Good evening
 
-Enter the first animal:
+I want to learn about animals.
+Which animal do you like most?
 > cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> y.
 
-> It has a tail
-Is it correct for a dog?
-Hello!
+Would you like to play again?
+Good evening
 
-Enter the first animal:
+I want to learn about animals.
+Which animal do you like most?
 > cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Y.
 
-> IT IS A SHY ANIMAL
-Is it correct for a dog?
-Hello!
+Would you like to play again?
+Good evening
 
-Enter the first animal:
+I want to learn about animals.
+Which animal do you like most?
 > cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> y!
 
-> it CAN swim and fly
-Is it correct for a dog?
-Hello!
+Would you like to play again?
+Good evening
 
-Enter the first animal:
+I want to learn about animals.
+Which animal do you like most?
 > cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Y!
 
-> it has long tooth.
-Is it correct for a dog?
-Hello!
+Would you like to play again?
+Good evening
 
-Enter the first animal:
+I want to learn about animals.
+Which animal do you like most?
 > cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+	>    Yes
 
-> iT has five legs
-Is it correct for a dog?
-Hello!
+Would you like to play again?
+Good evening
 
-Enter the first animal:
+I want to learn about animals.
+Which animal do you like most?
 > cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+	> Yes   
 
-> It can catch a mouse.
-Is it correct for a dog?
-Hello!
+Would you like to play again?
+Good evening
 
-Enter the first animal:
+I want to learn about animals.
+Which animal do you like most?
 > cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> yes
 
-> it is a danger predator.
-Is it correct for a dog?
-Hello!
+Would you like to play again?
+Good evening
 
-Enter the first animal:
+I want to learn about animals.
+Which animal do you like most?
 > cat
-Enter the second animal:
-> dog
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Yes
 
-> It is living in the forest.
-Is it correct for a dog?
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> YES
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> yes.
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Yes!
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> YES!
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> yES!
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> YeS
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Yeah
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> yeah
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Yeah!
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> YeAh.
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> YEAH
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> yep
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> yEp
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Yep!
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> YEP.
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> sure
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Sure!
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> SURE!
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> surE.
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> right
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+	> Right.
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+	> Right!
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> affirmative
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Affirmative!
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+
+> correct
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> correct.
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+	> indeed
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+
+> you bet
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+
+> exactly
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> you said it.
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> you said it!
+
+Would you like to play again?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> you said it
+
+Would you like to play again?
 [1;31m
 Start test 3[0m
-)Scenario 'complete-scenario' is started.
+(Scenario 'negative-answers' is started.
 
-Hello!
+Good evening
 
-Enter the first animal:
+I want to learn about animals.
+Which animal do you like most?
 > cat
-Enter the second animal:
-> DOG
-4Specify a fact that distinguishes a cat from a dog.
-;The sentence should be of the format: 'It can/has/is ...'.
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> n
+,I give up. What animal do you have in mind?
+Good evening
 
-> It can climb trees
-Is it correct for a dog?
-> ha
-'Could you please simply say yes or no?
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> N
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> n.
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> N.
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> n!
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> N!
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+>    No
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> No   
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
 > no
-2I have learned the following facts about animals:
-- The cat can climb trees.
-- The dog can't climb trees.
-8I can distinguish these animals by asking the question:
-- Can it climb trees?
+,I give up. What animal do you have in mind?
+Good evening
 
-Goodbye
-Hello!
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> nO
+,I give up. What animal do you have in mind?
+Good evening
 
-Enter the first animal:
-> hare
-Enter the second animal:
-> wolf
-6Specify a fact that distinguishes a hare from a wolf.
-;The sentence should be of the format: 'It can/has/is ...'.
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> NO
+,I give up. What animal do you have in mind?
+Good evening
 
-> It is a shy animal
-Is it correct for a wolf?
-> nej
-0Oh, no, don't try to confuse me: say yes or no.
-> no
-2I have learned the following facts about animals:
-- The hare is a shy animal.
-- The wolf isn't a shy animal.
-8I can distinguish these animals by asking the question:
-- Is it a shy animal?
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> No
+,I give up. What animal do you have in mind?
+Good evening
 
-Goodbye
-Hello!
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> no.
+,I give up. What animal do you have in mind?
+Good evening
 
-Enter the first animal:
-	> a lynx
-Enter the second animal:
-> an unicorN
-:Specify a fact that distinguishes a lynx from an unicorn.
-;The sentence should be of the format: 'It can/has/is ...'.
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> no!
+,I give up. What animal do you have in mind?
+Good evening
 
-> It is a fabulous animal?
-Is it correct for an unicorn?
-> of c
-0Oh, no, don't try to confuse me: say yes or no.
-> yes
-2I have learned the following facts about animals:
-$- The lynx isn't a fabulous animal.
-$- The unicorn is a fabulous animal.
-8I can distinguish these animals by asking the question:
-- Is it a fabulous animal?
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> No!
+,I give up. What animal do you have in mind?
+Good evening
 
-Later
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> NO!
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+	> no way
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+
+> no way!
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+
+> No Way!
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+
+> NO WAY!
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+
+> no waY.
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> nah
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Nah.
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> NAH!
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> naH
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> nope
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> NoPe!
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> NOPE.
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> negative
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Negative.
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> i don't think so
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> I don't think so
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> I don't think so.
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> I don't Think SO.
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+
+> yeah no
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> yeah no.
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> yeah no!
+,I give up. What animal do you have in mind?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> yeah NO!
+,I give up. What animal do you have in mind?
 [1;31m
 Start test 4[0m
-*Scenario 'facts-and-question' is started.
+'Scenario 'unclear-answers' is started.
 
-Hello!
+Good evening
 
-Enter the first animal:
+I want to learn about animals.
+Which animal do you like most?
 > cat
-Enter the second animal:
-> shark
-6Specify a fact that distinguishes a cat from a shark.
-;The sentence should be of the format: 'It can/has/is ...'.
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> y..
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
 
-> it is a mammal
-Is it correct for a shark?
-> no
-2I have learned the following facts about animals:
-- The cat is a mammal.
-- The shark isn't a mammal.
-8I can distinguish these animals by asking the question:
-- Is it a mammal?
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Y!.
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
 
-Later
-Hello!
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> ye
+'Could you please simply say yes or no?
+Good evening
 
-Enter the first animal:
-> wolf
-Enter the second animal:
-> hare
-6Specify a fact that distinguishes a wolf from a hare.
-;The sentence should be of the format: 'It can/has/is ...'.
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> jes
+'Could you please simply say yes or no?
+Good evening
 
-> it is a shy animal
-Is it correct for a hare?
-> yes
-2I have learned the following facts about animals:
-- The wolf isn't a shy animal.
-- The hare is a shy animal.
-8I can distinguish these animals by asking the question:
-- Is it a shy animal?
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Jes
+'Could you please simply say yes or no?
+Good evening
 
-Goodbye
-Hello!
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+	> yes...
+-I'm not sure I caught you: was it yes or no?
+Good evening
 
-Enter the first animal:
-> wolf
-Enter the second animal:
-> fox
-5Specify a fact that distinguishes a wolf from a fox.
-;The sentence should be of the format: 'It can/has/is ...'.
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> да
+2Funny, I still don't understand, is it yes or no?
+Good evening
 
-> it has a long bushy tail
-Is it correct for a fox?
-> yes
-2I have learned the following facts about animals:
-+- The wolf doesn't have a long bushy tail.
-!- The fox has a long bushy tail.
-8I can distinguish these animals by asking the question:
-"- Does it have a long bushy tail?
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+	> Так
+2Funny, I still don't understand, is it yes or no?
+Good evening
 
-See you next time
-Hello!
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> yes, yes
+9Oh, it's too complicated for me: just tell me yes or no.
+Good evening
 
-Enter the first animal:
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Yea
+'Could you please simply say yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Ja
+'Could you please simply say yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+
+> Jawohl!
+9Oh, it's too complicated for me: just tell me yes or no.
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> ja natürlich!
+'Could you please simply say yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> so genau
+2Funny, I still don't understand, is it yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> 1
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> +
+'Could you please simply say yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> yepi
+9Oh, it's too complicated for me: just tell me yes or no.
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Yep!!
+'Could you please simply say yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Yes, sure!
+-I'm not sure I caught you: was it yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> Ok
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+	> Rights
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> affErmative
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> n..
+'Could you please simply say yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> N!!
+-I'm not sure I caught you: was it yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> nea
+'Could you please simply say yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> nop
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> noppi
+9Oh, it's too complicated for me: just tell me yes or no.
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> no wa
+9Oh, it's too complicated for me: just tell me yes or no.
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> no way!!!
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> na
+2Funny, I still don't understand, is it yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> nahi
+-I'm not sure I caught you: was it yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> nega
+-I'm not sure I caught you: was it yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> negat
+2Funny, I still don't understand, is it yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+	> negati
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+
+> negativ
+2Funny, I still don't understand, is it yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> i don't think..
+'Could you please simply say yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+
+> i don't
+9Oh, it's too complicated for me: just tell me yes or no.
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> i
+'Could you please simply say yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> I no
+-I'm not sure I caught you: was it yes or no?
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> i don't think so...
+0Oh, no, don't try to confuse me: say yes or no.
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> null
+0Oh, no, don't try to confuse me: say yes or no.
+[1;31m
+Start test 5[0m
+%Scenario 'guessing-game' is started.
+
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> No
+,I give up. What animal do you have in mind?
 > dog
-Enter the second animal:
-> cat
-4Specify a fact that distinguishes a dog from a cat.
-;The sentence should be of the format: 'It can/has/is ...'.
+4Specify a fact that distinguishes a cat from a dog.
+<The sentence should satisfy one of the following templates:
+- It can ...
+- It has ...
+- It is a/an ...
 
 > it can climb trees
-Is it correct for a cat?
-> yes
+Is it correct for a dog?
+> no
 2I have learned the following facts about animals:
-- The dog can't climb trees.
 - The cat can climb trees.
+- The dog can't climb trees.
 8I can distinguish these animals by asking the question:
 - Can it climb trees?
+*Nice! I've learned so much about animals!
 
-Bye
-Hello!
+Would you like to play again?
+> yes
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Can it climb trees?
+> yes
+Is it a cat?
+> no
+,I give up. What animal do you have in mind?
+> lynx
+5Specify a fact that distinguishes a cat from a lynx.
+<The sentence should satisfy one of the following templates:
+- It can ...
+- It has ...
+- It is a/an ...
 
-Enter the first animal:
-> dog
-Enter the second animal:
-> fox
-4Specify a fact that distinguishes a dog from a fox.
-;The sentence should be of the format: 'It can/has/is ...'.
+> it has tassels on his ears
+Is it correct for a lynx?
+> yes
+2I have learned the following facts about animals:
+,- The cat doesn't have tassels on his ears.
+$- The lynx has tassels on his ears.
+8I can distinguish these animals by asking the question:
+$- Does it have tassels on his ears?
+*Nice! I've learned so much about animals!
+
+Would you like to play again?
+> yes
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Can it climb trees?
+> no
+Is it a dog?
+> no
+,I give up. What animal do you have in mind?
+> wolf
+5Specify a fact that distinguishes a dog from a wolf.
+<The sentence should satisfy one of the following templates:
+- It can ...
+- It has ...
+- It is a/an ...
 
 > it is living in the forest
-Is it correct for a fox?
+Is it correct for a wolf?
 > yes
 2I have learned the following facts about animals:
 &- The dog isn't living in the forest.
-#- The fox is living in the forest.
+$- The wolf is living in the forest.
 8I can distinguish these animals by asking the question:
 - Is it living in the forest?
+*Nice! I've learned so much about animals!
 
+Would you like to play again?
+> yes
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Can it climb trees?
+> yes
+"Does it have tassels on his ears?
+> yes
+Is it a lynx?
+> yes
+
+Would you like to play again?
+> no
 Bye
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> No
+,I give up. What animal do you have in mind?
+> dog
+4Specify a fact that distinguishes a cat from a dog.
+<The sentence should satisfy one of the following templates:
+- It can ...
+- It has ...
+- It is a/an ...
+
+> it can climb trees
+Is it correct for a dog?
+> no
+2I have learned the following facts about animals:
+- The cat can climb trees.
+- The dog can't climb trees.
+8I can distinguish these animals by asking the question:
+- Can it climb trees?
+*Nice! I've learned so much about animals!
+
+Would you like to play again?
+> yes
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Can it climb trees?
+> yes
+Is it a cat?
+> no
+,I give up. What animal do you have in mind?
+> lynx
+5Specify a fact that distinguishes a cat from a lynx.
+<The sentence should satisfy one of the following templates:
+- It can ...
+- It has ...
+- It is a/an ...
+
+> it has tassels on his ears
+Is it correct for a lynx?
+> yes
+2I have learned the following facts about animals:
+,- The cat doesn't have tassels on his ears.
+$- The lynx has tassels on his ears.
+8I can distinguish these animals by asking the question:
+$- Does it have tassels on his ears?
+*Nice! I've learned so much about animals!
+
+Would you like to play again?
+> yes
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Can it climb trees?
+> no
+Is it a dog?
+> no
+,I give up. What animal do you have in mind?
+> wolf
+5Specify a fact that distinguishes a dog from a wolf.
+<The sentence should satisfy one of the following templates:
+- It can ...
+- It has ...
+- It is a/an ...
+
+> it is living in the forest
+Is it correct for a wolf?
+> yes
+2I have learned the following facts about animals:
+&- The dog isn't living in the forest.
+$- The wolf is living in the forest.
+8I can distinguish these animals by asking the question:
+- Is it living in the forest?
+*Nice! I've learned so much about animals!
+
+Would you like to play again?
+> yes
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Can it climb trees?
+> yes
+"Does it have tassels on his ears?
+> no
+Is it a cat?
+> yes
+
+Would you like to play again?
+> no
+Goodbye
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> No
+,I give up. What animal do you have in mind?
+> dog
+4Specify a fact that distinguishes a cat from a dog.
+<The sentence should satisfy one of the following templates:
+- It can ...
+- It has ...
+- It is a/an ...
+
+> it can climb trees
+Is it correct for a dog?
+> no
+2I have learned the following facts about animals:
+- The cat can climb trees.
+- The dog can't climb trees.
+8I can distinguish these animals by asking the question:
+- Can it climb trees?
+*Nice! I've learned so much about animals!
+
+Would you like to play again?
+> yes
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Can it climb trees?
+> yes
+Is it a cat?
+> no
+,I give up. What animal do you have in mind?
+> lynx
+5Specify a fact that distinguishes a cat from a lynx.
+<The sentence should satisfy one of the following templates:
+- It can ...
+- It has ...
+- It is a/an ...
+
+> it has tassels on his ears
+Is it correct for a lynx?
+> yes
+2I have learned the following facts about animals:
+,- The cat doesn't have tassels on his ears.
+$- The lynx has tassels on his ears.
+8I can distinguish these animals by asking the question:
+$- Does it have tassels on his ears?
+*Nice! I've learned so much about animals!
+
+Would you like to play again?
+> yes
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Can it climb trees?
+> no
+Is it a dog?
+> no
+,I give up. What animal do you have in mind?
+> wolf
+5Specify a fact that distinguishes a dog from a wolf.
+<The sentence should satisfy one of the following templates:
+- It can ...
+- It has ...
+- It is a/an ...
+
+> it is living in the forest
+Is it correct for a wolf?
+> yes
+2I have learned the following facts about animals:
+&- The dog isn't living in the forest.
+$- The wolf is living in the forest.
+8I can distinguish these animals by asking the question:
+- Is it living in the forest?
+*Nice! I've learned so much about animals!
+
+Would you like to play again?
+> yes
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Can it climb trees?
+> no
+Is it living in the forest?
+> yes
+Is it a wolf?
+> yes
+
+Would you like to play again?
+> no
+Bye
+Good evening
+
+I want to learn about animals.
+Which animal do you like most?
+> cat
+/Wonderful! I've learned so much about animals!
+Let's play a game!
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Is it a cat?
+> No
+,I give up. What animal do you have in mind?
+> dog
+4Specify a fact that distinguishes a cat from a dog.
+<The sentence should satisfy one of the following templates:
+- It can ...
+- It has ...
+- It is a/an ...
+
+> it can climb trees
+Is it correct for a dog?
+> no
+2I have learned the following facts about animals:
+- The cat can climb trees.
+- The dog can't climb trees.
+8I can distinguish these animals by asking the question:
+- Can it climb trees?
+*Nice! I've learned so much about animals!
+
+Would you like to play again?
+> yes
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Can it climb trees?
+> yes
+Is it a cat?
+> no
+,I give up. What animal do you have in mind?
+> lynx
+5Specify a fact that distinguishes a cat from a lynx.
+<The sentence should satisfy one of the following templates:
+- It can ...
+- It has ...
+- It is a/an ...
+
+> it has tassels on his ears
+Is it correct for a lynx?
+> yes
+2I have learned the following facts about animals:
+,- The cat doesn't have tassels on his ears.
+$- The lynx has tassels on his ears.
+8I can distinguish these animals by asking the question:
+$- Does it have tassels on his ears?
+*Nice! I've learned so much about animals!
+
+Would you like to play again?
+> yes
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Can it climb trees?
+> no
+Is it a dog?
+> no
+,I give up. What animal do you have in mind?
+> wolf
+5Specify a fact that distinguishes a dog from a wolf.
+<The sentence should satisfy one of the following templates:
+- It can ...
+- It has ...
+- It is a/an ...
+
+> it is living in the forest
+Is it correct for a wolf?
+> yes
+2I have learned the following facts about animals:
+&- The dog isn't living in the forest.
+$- The wolf is living in the forest.
+8I can distinguish these animals by asking the question:
+- Is it living in the forest?
+*Nice! I've learned so much about animals!
+
+Would you like to play again?
+> yes
+(You think of an animal, and I guess it.
+Press enter when you're ready.
+> 
+Can it climb trees?
+> no
+Is it living in the forest?
+> no
+Is it a dog?
+> yes
+
+Would you like to play again?
+> no
+Later

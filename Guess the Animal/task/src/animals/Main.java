@@ -5,11 +5,20 @@ public class Main {
         ClientCode.greet();
         System.out.println();
         ClientCode.enterAnimals();
-        ClientCode.specifyAnimalFact();
-        ClientCode.checkEvaluationCorrectness();
-        ClientCode.declareLearnedFacts();
-        ClientCode.printDistinguishingQuestion();
-        System.out.println();
+
+        do {
+            ClientCode.suggestToPlay();
+            ClientCode.askQuestions();
+            if (!ClientCode.isGuessCorrect()) {
+                ClientCode.specifyAnimalFact();
+                ClientCode.checkCorrectnessForSecondAnimal();
+                ClientCode.declareLearnedFacts();
+                ClientCode.printDistinguishingQuestion();
+            }
+
+            System.out.println();
+        } while (ClientCode.suggestPlayAgain());
+
         ClientCode.tellGoodbye();
     }
 }

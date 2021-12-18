@@ -101,20 +101,6 @@ public class Formatter {
 
         name = name.toLowerCase();
         String animalNamePattern = "[a-z]+(\\s[a-z]+)*";
-//
-//        if (name.matches("(?i)an?\\s" + animalNamePattern)) {
-//            return name.toLowerCase();
-//        } else if (
-//                name.matches("(?i)the\\s" + animalNamePattern) ||
-//                name.matches("(?i)" + animalNamePattern)
-//        ) {
-//            String nameWithoutArticle = name.replaceFirst("(?i)the\\s", "");
-//            String article = determineIndefiniteArticle(nameWithoutArticle);
-//
-//            return article + " " + nameWithoutArticle.toLowerCase();
-//        } else {
-//            throw new IllegalArgumentException("Wrong name format");
-//        }
 
         String article;
         String animalName;
@@ -152,6 +138,6 @@ public class Formatter {
     }
 
     private static String determineIndefiniteArticle(String animalName) {
-        return animalName.matches("[aeio].*") ? "an" : "a";
+        return animalName.matches("(?i)[aeiou].*") ? "an" : "a";
     }
 }

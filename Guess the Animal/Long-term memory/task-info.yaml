@@ -513,6 +513,489 @@ files:
       - "The answer \"{0}\" should be treated as correct positive."
 
   learner_created: false
+- name: src/animals/RandomAnswers.java
+  visible: true
+  text: |
+    package animals;
+
+    import java.time.LocalTime;
+    import java.util.List;
+    import java.util.Random;
+
+    public class RandomAnswers {
+        public static String greet() {
+            LocalTime currentTime = LocalTime.now();
+            LocalTime morningStart = LocalTime.of(5, 0);
+            LocalTime afternoonStart = LocalTime.of(12, 0);
+            LocalTime eveningStart = LocalTime.of(18, 0);
+
+            String greeting = "Hello!";
+            if (
+                    currentTime.compareTo(morningStart) >= 0 &&
+                            currentTime.compareTo(afternoonStart) < 0
+            ) {
+                greeting = "Good morning";
+            } else if (
+                    currentTime.compareTo(afternoonStart) >= 0 &&
+                            currentTime.compareTo(eveningStart) < 0
+            ) {
+                greeting = "Good afternoon";
+            } else if (currentTime.compareTo(eveningStart) >= 0) {
+                greeting = "Good evening";
+            }
+
+            return greeting;
+        }
+
+        public static String tellGoodbye() {
+            List<String> goodbyes = List.of(
+                    "Goodbye", "Bye", "See you next time", "Later"
+            );
+            Random random = new Random();
+            return goodbyes.get(random.nextInt(goodbyes.size()));
+        }
+
+        public static String generateMisperceptionAnswer() {
+            List<String> misperceptionResponses = List.of(
+                    "I'm not sure I caught you: was it yes or no?",
+                    "Funny, I still don't understand, is it yes or no?",
+                    "Oh, it's too complicated for me: just tell me yes or no.",
+                    "Could you please simply say yes or no?",
+                    "Oh, no, don't try to confuse me: say yes or no."
+            );
+
+            Random random = new Random();
+            String programPerceptionAnswer = misperceptionResponses.get(
+                    random.nextInt(misperceptionResponses.size())
+            );
+
+            return programPerceptionAnswer;
+        }
+    }
+  learner_created: true
+- name: src/animals/BinaryTree.java
+  visible: true
+  text: |
+    package animals;
+
+    public class BinaryTree {
+        private Node root;
+
+        public void setRoot(Node node) {
+            root = node;
+        }
+
+        public Node getRoot() {
+            return root;
+        }
+
+        public static class Node {
+            private Node left;
+            private Node right;
+            private String value;
+
+            public Node(String value) {
+                this.value = value;
+            }
+
+            public Node(String value, Node left, Node right) {
+                this(value);
+                this.left = left;
+                this.right = right;
+            }
+
+            public String getValue() {
+                return value;
+            }
+
+            public void setValue(String value) {
+                this.value = value;
+            }
+
+            public Node getLeft() {
+                return left;
+            }
+
+            public Node getRight() {
+                return right;
+            }
+
+            public void setLeft(Node left) {
+                this.left = left;
+            }
+
+            public void setRight(Node right) {
+                this.right = right;
+            }
+        }
+    }
+  learner_created: true
+- name: src/animals/Formatter.java
+  visible: true
+  text: |-
+    package animals;
+
+    import java.util.regex.Matcher;
+    import java.util.regex.Pattern;
+
+    public class Formatter {
+        public static class NameFormatter {
+            private String article;
+            private String animalName;
+            private String articleAndAnimalName;
+
+            private NameFormatter(String article, String animalName, String articleAndAnimalName) {
+                this.article = article;
+                this.animalName = animalName;
+                this.articleAndAnimalName = articleAndAnimalName;
+            }
+
+            public String getArticle() {
+                return article;
+            }
+
+            public String getAnimalName() {
+                return animalName;
+            }
+
+            public String getArticleAndAnimalName() {
+                return articleAndAnimalName;
+            }
+        }
+
+        public static class CharacteristicFormatter {
+            private String verb;
+            private String characteristic;
+
+            public CharacteristicFormatter(String verb, String characteristic) {
+                this.verb = verb;
+                this.characteristic = characteristic;
+            }
+
+            public String getVerb() {
+                return verb;
+            }
+
+            public String getNegativeVerb() {
+                if ("can".equals(verb)) {
+                    return verb + "'t";
+                } else if ("has".equals(verb)) {
+                    return "doesn't have";
+                } else if ("is".equals(verb)) {
+                    return verb + "n't";
+                } else {
+                    throw new IllegalStateException("Can't identify verb field");
+                }
+            }
+
+            public String getQuestionVerbWithNoun(String noun) {
+                if (noun == null) {
+                    throw new IllegalArgumentException("Noun can't be null");
+                }
+                noun = noun.toLowerCase();
+
+                if ("can".equals(verb)) {
+                    return verb + " " + noun;
+                } else if ("has".equals(verb)) {
+                    return "does" + " " + noun + " have";
+                } else if ("is".equals(verb)) {
+                    return verb + " " + noun;
+                } else {
+                    throw new IllegalStateException("Can't identify verb field");
+                }
+            }
+
+            public String getCharacteristic() {
+                return characteristic;
+            }
+        }
+
+        public static CharacteristicFormatter formatCharacteristic(String characteristic) {
+            if (characteristic == null) {
+                throw new IllegalArgumentException("Characteristic can't be null");
+            }
+
+            characteristic = characteristic.toLowerCase();;
+
+            Matcher matcher = Pattern
+                    .compile("(?i)^It (?<verb>can|has|is)\\s+(?<userWords>.+)(?<![.!?]+)")
+                    .matcher(characteristic);
+            if (matcher.find()) {
+                String verb = matcher.group("verb");
+                String userWords = matcher.group("userWords");
+                return new CharacteristicFormatter(verb, userWords);
+            } else {
+                throw new IllegalArgumentException("Wrong characteristic format");
+            }
+        }
+
+        public static NameFormatter formatName(String name) {
+            if (name == null) {
+                throw new IllegalArgumentException("Name can't be null");
+            }
+
+            name = name.toLowerCase();
+            String animalNamePattern = "[a-z]+(\\s[a-z]+)*";
+
+            String article;
+            String animalName;
+            String articleAndAnimalName;
+
+            Matcher matcher = Pattern
+                    .compile("(an?|the)\\s(" + animalNamePattern + ")")
+                    .matcher(name);
+
+            if (matcher.find()) {
+                article = matcher.group(1);
+                animalName = matcher.group(2);
+            } else if (name.matches(animalNamePattern)) {
+                article = "";
+                animalName = name;
+            } else {
+                throw new IllegalArgumentException("Wrong name format");
+            }
+
+            if ("the".equals(article) || "".equals(article)) {
+                article = determineIndefiniteArticle(animalName);
+            }
+
+            articleAndAnimalName = article + " " + animalName;
+
+            return new NameFormatter(article, animalName, articleAndAnimalName);
+        }
+
+        public static String toUpperCaseFirst(String str) {
+            if (str == null) {
+                throw new IllegalArgumentException("Argument can't be null");
+            }
+
+            return str.substring(0, 1).toUpperCase() + str.substring(1);
+        }
+
+        private static String determineIndefiniteArticle(String animalName) {
+            return animalName.matches("(?i)[aeiou].*") ? "an" : "a";
+        }
+    }
+  learner_created: true
+- name: src/animals/Analyzer.java
+  visible: true
+  text: |
+    package animals;
+
+    import java.util.List;
+
+    public class Analyzer {
+        public static boolean analyzeAnswer(String answer) throws Exception {
+            List<String> positiveResponses = List.of(
+                    "y", "yes", "yeah", "yep", "sure", "right", "affirmative",
+                    "correct", "indeed", "you bet", "exactly", "you said it"
+            );
+
+            List<String> negativeResponses = List.of(
+                    "n", "no", "no way", "nah", "nope", "negative",
+                    "I don't think so", "yeah no"
+            );
+
+            if (anyMatch(answer, positiveResponses)) {
+                return true;
+            } else if (anyMatch(answer, negativeResponses)) {
+                return false;
+            } else {
+                throw new Exception(RandomAnswers.generateMisperceptionAnswer());
+            }
+        }
+
+        private static boolean anyMatch(String userAnswer, List<String> responses) {
+            return responses.stream()
+                    .anyMatch(item -> item != null && userAnswer.trim().matches("(?i)" + item + "(!|\\.)?"));
+        }
+    }
+  learner_created: true
+- name: src/animals/ClientCode.java
+  visible: true
+  text: |
+    package animals;
+
+    import java.util.Scanner;
+
+    public class ClientCode {
+        private static Scanner scanner = new Scanner(System.in);
+        private static Formatter.NameFormatter firstAnimal;
+        private static Formatter.NameFormatter secondAnimal;
+        private static  Formatter.CharacteristicFormatter animalCharacteristic;
+        private static boolean characteristicCorrectnessForSecondAnimal;
+        private static BinaryTree binaryTree = new BinaryTree();
+        private static BinaryTree.Node currentNode;
+
+        public static void greet() {
+            System.out.println(RandomAnswers.greet());
+        }
+
+        public static void tellGoodbye() {
+            System.out.println(RandomAnswers.tellGoodbye());
+        }
+
+        public static void enterAnimals() {
+            System.out.println("I want to learn about animals.");
+            System.out.println("Which animal do you like most?");
+
+            firstAnimal = Formatter.formatName(scanner.nextLine());
+            binaryTree.setRoot(new BinaryTree.Node(firstAnimal.getArticleAndAnimalName()));
+
+            System.out.println("Wonderful! I've learned so much about animals!");
+            System.out.println("Let's play a game!");
+        }
+
+        public static void suggestToPlay() {
+            System.out.println("You think of an animal, and I guess it.");
+            System.out.println("Press enter when you're ready.");
+            scanner.nextLine();
+        }
+
+        public static void askQuestions() {
+            currentNode = binaryTree.getRoot();
+            BinaryTree.Node left = currentNode.getLeft();
+            BinaryTree.Node right = currentNode.getRight();
+
+            while (left != null && right != null) {
+                System.out.println(currentNode.getValue());
+
+                try {
+                    if (Analyzer.analyzeAnswer(scanner.nextLine())) {
+                        currentNode = currentNode.getRight();
+                    } else {
+                        currentNode = currentNode.getLeft();
+                    }
+
+                    left = currentNode.getLeft();
+                    right = currentNode.getRight();
+                } catch (Exception e) {
+                    System.out.println(e.getMessage());
+                }
+            }
+
+            // Animal from binary tree is always first
+            firstAnimal = Formatter.formatName(currentNode.getValue());
+            System.out.println("Is it " + firstAnimal.getArticleAndAnimalName()  + "?");
+        }
+
+        public static boolean isGuessCorrect() {
+            while (true) {
+                try {
+                    if (Analyzer.analyzeAnswer(scanner.nextLine())) {
+                        return true;
+                    } else {
+                        System.out.println("I give up. What animal do you have in mind?");
+                        secondAnimal = Formatter.formatName(scanner.nextLine());
+                        return false;
+                    }
+                } catch (Exception e) {
+                    System.out.println(e.getMessage());
+                }
+            }
+        }
+
+        public static void specifyAnimalFact() {
+            while (true) {
+                System.out.println(
+                        "Specify a fact that distinguishes " +
+                        firstAnimal.getArticleAndAnimalName() +
+                        " from " +
+                        secondAnimal.getArticleAndAnimalName() + "."
+                );
+                System.out.println("The sentence should satisfy one of the following templates:");
+                System.out.println("- It can ...");
+                System.out.println("- It has ...");
+                System.out.println("- It is a/an ...");
+                System.out.println();
+
+                String animalCharacteristicInput = scanner.nextLine();
+                if (animalCharacteristicInput.matches("(?i)It (can|has|is)\\s.+")) {
+                    animalCharacteristic = Formatter
+                            .formatCharacteristic(animalCharacteristicInput);
+                    break;
+                }
+            }
+        }
+
+        public static void checkCorrectnessForSecondAnimal() {
+            System.out.println(
+                    "Is it correct for " + secondAnimal.getArticleAndAnimalName() + "?"
+            );
+
+            while (true) {
+                String userAnswer = scanner.nextLine();
+
+                try {
+                    characteristicCorrectnessForSecondAnimal = Analyzer.analyzeAnswer(userAnswer);
+                    break;
+                } catch (Exception e) {
+                    System.out.println(e.getMessage());
+                }
+            }
+        }
+
+        public static void declareLearnedFacts() {
+            String firstStatement;
+            String secondStatement;
+
+            String question = Formatter.toUpperCaseFirst(animalCharacteristic.getQuestionVerbWithNoun("it")) +
+                    " " + animalCharacteristic.getCharacteristic() + "?";
+
+            currentNode.setValue(question);
+
+            if (characteristicCorrectnessForSecondAnimal) {
+                currentNode.setLeft(new BinaryTree.Node(firstAnimal.getArticleAndAnimalName()));
+                currentNode.setRight(new BinaryTree.Node(secondAnimal.getArticleAndAnimalName()));
+
+                firstStatement = "- The " + firstAnimal.getAnimalName() + " " +
+                    animalCharacteristic.getNegativeVerb() + " " +
+                    animalCharacteristic.getCharacteristic() + ".";
+                secondStatement = "- The " + secondAnimal.getAnimalName() + " " +
+                        animalCharacteristic.getVerb() + " " +
+                        animalCharacteristic.getCharacteristic() + ".";
+            } else {
+                currentNode.setLeft(new BinaryTree.Node(secondAnimal.getArticleAndAnimalName()));
+                currentNode.setRight(new BinaryTree.Node(firstAnimal.getArticleAndAnimalName()));
+
+                firstStatement = "- The " + firstAnimal.getAnimalName() + " " +
+                        animalCharacteristic.getVerb() + " " +
+                        animalCharacteristic.getCharacteristic() + ".";
+                secondStatement = "- The " + secondAnimal.getAnimalName() + " " +
+                        animalCharacteristic.getNegativeVerb() + " " +
+                        animalCharacteristic.getCharacteristic() + ".";
+            }
+
+            System.out.println("I have learned the following facts about animals:");
+
+            System.out.println(firstStatement);
+            System.out.println(secondStatement);
+        }
+
+        public static void printDistinguishingQuestion() {
+            System.out.println("I can distinguish these animals by asking the question:");
+            String question = Formatter
+                    .toUpperCaseFirst(animalCharacteristic.getQuestionVerbWithNoun("it")) +
+                    " " + animalCharacteristic.getCharacteristic() + "?";
+            System.out.println("- " + question);
+            System.out.println("Nice! I've learned so much about animals!");
+        }
+
+        public static boolean suggestPlayAgain() {
+            System.out.println("Would you like to play again?");
+
+            while (true) {
+                String userAnswer = scanner.nextLine();
+
+                try {
+                    return Analyzer.analyzeAnswer(userAnswer);
+                } catch (Exception e) {
+                    System.out.println(e.getMessage());
+                }
+            }
+        }
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/132/stages/706/implement#comment
 status: Unchecked
 record: -1
