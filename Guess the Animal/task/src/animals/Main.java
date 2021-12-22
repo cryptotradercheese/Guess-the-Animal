@@ -2,9 +2,14 @@ package animals;
 
 public class Main {
     public static void main(String[] args) {
+        ClientCode.parseMainArgs(args);
         ClientCode.greet();
         System.out.println();
-        ClientCode.enterAnimals();
+        if (!ClientCode.doesDbExists()) {
+            ClientCode.enterAnimals();
+        } else {
+            ClientCode.loadDb();
+        }
 
         do {
             ClientCode.suggestToPlay();

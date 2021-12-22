@@ -1,21 +1,58 @@
 package animals;
 
+import animals.serialization.FileFormat;
+import animals.serialization.JacksonDeserializer;
+import animals.serialization.JacksonSerializer;
+
 import java.util.Scanner;
 
 public class ClientCode {
     private static Scanner scanner = new Scanner(System.in);
     private static Formatter.NameFormatter firstAnimal;
     private static Formatter.NameFormatter secondAnimal;
-    private static  Formatter.CharacteristicFormatter animalCharacteristic;
+    private static Formatter.CharacteristicFormatter animalCharacteristic;
     private static boolean characteristicCorrectnessForSecondAnimal;
     private static BinaryTree binaryTree = new BinaryTree();
     private static BinaryTree.Node currentNode;
+    private static FileFormat fileFormat;
+
+    public static boolean doesDbExists() {
+        return JacksonDeserializer.dbExists(fileFormat);
+    }
+
+    public static void parseMainArgs(String[] args) {
+        if (args == null || args.length % 2 != 0) {
+            throw new IllegalArgumentException("Args length must be even");
+        }
+
+        if (args.length > 0) {
+            String param = args[0];
+            String value = args[1].toUpperCase();
+
+            if ("-type".equals(param)) {
+                if (value.equals(FileFormat.JSON.toString())) {
+                    fileFormat = FileFormat.JSON;
+                } else if (value.equals(FileFormat.XML.toString())) {
+                    fileFormat = FileFormat.XML;
+                } else if (value.equals(FileFormat.YAML.toString())) {
+                    fileFormat = FileFormat.YAML;
+                }
+            }
+        } else {
+            fileFormat = FileFormat.JSON;
+        }
+    }
+
+    public static void loadDb() {
+        binaryTree = JacksonDeserializer.deserialize(fileFormat);
+    }
 
     public static void greet() {
         System.out.println(RandomAnswers.greet());
     }
 
     public static void tellGoodbye() {
+        JacksonSerializer.serialize(fileFormat, binaryTree);
         System.out.println(RandomAnswers.tellGoodbye());
     }
 
@@ -38,21 +75,21 @@ public class ClientCode {
 
     public static void askQuestions() {
         currentNode = binaryTree.getRoot();
-        BinaryTree.Node left = currentNode.getLeft();
-        BinaryTree.Node right = currentNode.getRight();
+        BinaryTree.Node no = currentNode.getNo();
+        BinaryTree.Node yes = currentNode.getYes();
 
-        while (left != null && right != null) {
+        while (no != null && yes != null) {
             System.out.println(currentNode.getValue());
 
             try {
                 if (Analyzer.analyzeAnswer(scanner.nextLine())) {
-                    currentNode = currentNode.getRight();
+                    currentNode = currentNode.getYes();
                 } else {
-                    currentNode = currentNode.getLeft();
+                    currentNode = currentNode.getNo();
                 }
 
-                left = currentNode.getLeft();
-                right = currentNode.getRight();
+                no = currentNode.getNo();
+                yes = currentNode.getYes();
             } catch (Exception e) {
                 System.out.println(e.getMessage());
             }
@@ -104,7 +141,7 @@ public class ClientCode {
 
     public static void checkCorrectnessForSecondAnimal() {
         System.out.println(
-                "Is it correct for " + secondAnimal.getArticleAndAnimalName() + "?"
+                "Is the statement correct for " + secondAnimal.getArticleAndAnimalName() + "?"
         );
 
         while (true) {
@@ -129,18 +166,18 @@ public class ClientCode {
         currentNode.setValue(question);
 
         if (characteristicCorrectnessForSecondAnimal) {
-            currentNode.setLeft(new BinaryTree.Node(firstAnimal.getArticleAndAnimalName()));
-            currentNode.setRight(new BinaryTree.Node(secondAnimal.getArticleAndAnimalName()));
+            currentNode.setNo(new BinaryTree.Node(firstAnimal.getArticleAndAnimalName()));
+            currentNode.setYes(new BinaryTree.Node(secondAnimal.getArticleAndAnimalName()));
 
             firstStatement = "- The " + firstAnimal.getAnimalName() + " " +
-                animalCharacteristic.getNegativeVerb() + " " +
-                animalCharacteristic.getCharacteristic() + ".";
+                    animalCharacteristic.getNegativeVerb() + " " +
+                    animalCharacteristic.getCharacteristic() + ".";
             secondStatement = "- The " + secondAnimal.getAnimalName() + " " +
                     animalCharacteristic.getVerb() + " " +
                     animalCharacteristic.getCharacteristic() + ".";
         } else {
-            currentNode.setLeft(new BinaryTree.Node(secondAnimal.getArticleAndAnimalName()));
-            currentNode.setRight(new BinaryTree.Node(firstAnimal.getArticleAndAnimalName()));
+            currentNode.setNo(new BinaryTree.Node(secondAnimal.getArticleAndAnimalName()));
+            currentNode.setYes(new BinaryTree.Node(firstAnimal.getArticleAndAnimalName()));
 
             firstStatement = "- The " + firstAnimal.getAnimalName() + " " +
                     animalCharacteristic.getVerb() + " " +

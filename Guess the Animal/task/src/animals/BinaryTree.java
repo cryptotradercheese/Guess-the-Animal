@@ -12,18 +12,20 @@ public class BinaryTree {
     }
 
     public static class Node {
-        private Node left;
-        private Node right;
+        private Node no;
+        private Node yes;
         private String value;
+
+        public Node() {}
 
         public Node(String value) {
             this.value = value;
         }
 
-        public Node(String value, Node left, Node right) {
+        public Node(String value, Node no, Node yes) {
             this(value);
-            this.left = left;
-            this.right = right;
+            this.no = no;
+            this.yes = yes;
         }
 
         public String getValue() {
@@ -34,20 +36,20 @@ public class BinaryTree {
             this.value = value;
         }
 
-        public Node getLeft() {
-            return left;
+        public Node getNo() {
+            return no;
         }
 
-        public Node getRight() {
-            return right;
+        public Node getYes() {
+            return yes;
         }
 
-        public void setLeft(Node left) {
-            this.left = left;
+        public void setNo(Node no) {
+            this.no = no;
         }
 
-        public void setRight(Node right) {
-            this.right = right;
+        public void setYes(Node yes) {
+            this.yes = yes;
         }
     }
 }
